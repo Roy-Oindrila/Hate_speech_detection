@@ -54,6 +54,21 @@ This project has **two main components**:
 
 ---
 
+🏋️‍♂️ Training the Model – How It Works
+Download dataset from Kaggle
+
+Clean text (remove URLs, hashtags, mentions, punctuation, numbers)
+
+Split data into train/test sets
+
+Vectorize text using TF-IDF
+
+Train Logistic Regression model with balanced weights
+
+Evaluate performance using confusion matrix & classification report
+
+Save model & vectorizer as .pkl files
+
 ## 📂 Files in Repository
 
 | File Name                  | Description |
@@ -80,3 +95,25 @@ Clone the repository and install dependencies:
 git clone https://github.com/your-username/hate-speech-detection.git
 cd hate-speech-detection
 pip install -r requirements.txt
+
+🌐 Deploying the Streamlit App
+To deploy:
+
+Push your repository to GitHub
+
+Connect to Streamlit Community Cloud
+
+Set app.py as the entry point
+
+Include both .pkl files in your repo
+
+
+
+## Limitations
+- **Prediction Accuracy Variability** – While many predictions are correct, some fail due to:
+  - Ambiguous or sarcastic language
+  - Slang and spelling variations
+  - Cultural references
+- **Data Bias** – Dataset may not represent all linguistic contexts.
+- **Generalization Issues** – Lower accuracy on very different data.
+
