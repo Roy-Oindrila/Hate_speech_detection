@@ -85,7 +85,7 @@ Save model & vectorizer as .pkl files
 ## 🚀 Run in Google Colab
 Click the badge below to open the training notebook in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([[https://colab.research.google.com/github/your-username/hate-speech-detection/blob/main/train_model.ipynb])
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Roy-Oindrila/Hate_speech_detection/blob/main/Hate_Speech_Detection.ipynb)])
 
 ---
 
